@@ -16,7 +16,6 @@ class Quiz extends Component {
                 <div className = 'QuizQuestion'>
                     <QuizQuestion 
                         quiz_question = {quizData.quiz_questions[this.state.quiz_position - 1]}
-                        instruction_text = {quizData.quiz_questions[this.state.quiz_position - 1].instruction_text}
                     />
                 </div>
             </div>
